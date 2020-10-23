@@ -1,0 +1,49 @@
+#troll{
+    padding: 0 200px 0 200px;
+    margin: auto;
+}
+
+#question{
+    height: 200px;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#answers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    opacity: 0.2;
+}
+#answers > div {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yes {
+    background-color: green;
+}
+
+#no {
+    background-color: red;
+}
+
+
+/* position: absoute;
+top 
+left
+
+opacity: */

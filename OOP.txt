@@ -1,0 +1,30 @@
+ - L?p trình hu?ng d?i tu?ng (OOP) là m?t k? thu?t l?p trình cho phép l?p trình viên t?o ra các d?i tu?ng trong code tr?u tu?ng hóa các d?i tu?ng.
+
+ - Ð?i tu?ng
+       M?t d?i tu?ng bao g?m 2 thông tin: thu?c tính và phuong th?c.
+          •  Thu?c tính chính là nh?ng thông tin, d?c di?m c?a d?i tu?ng. Ví d?: con ngu?i có các d?c tính nhu m?t, mui, tay, chân...
+          •  Phuong th?c là nh?ng thao tác, hành d?ng mà d?i tu?ng dó có th? th?c hi?n. Ví d?: m?t ngu?i s? có th? th?c hi?n hành d?ng nói, di, an, u?ng, . . .
+
+- L?p:
+       M?t l?p là m?t ki?u d? li?u bao g?m các thu?c tính và các phuong th?c du?c d?nh nghia t? tru?c. Ðây là s? tr?u tu?ng hóa c?a d?i tu?ng. Khác v?i ki?u d? li?u thông thu?ng, m?t l?p là m?t don v? (tr?u tu?ng) bao g?m s? k?t h?p gi?a các phuong th?c và các thu?c tính. Hi?u nôm na hon là các d?i tu?ng có các d?c tính tuong t? nhau du?c gom l?i thành m?t l?p d?i tu?ng.
+
+- 4 tính ch?t c?a oop:
+      • Tính dóng gói (Encapsulation):
+                Là cách dê? che dâ´u nhu~ng tính châ´t xu? lý bên trong cu?a dô´i tuo?ng, nhu~ng dô´i tuo?ng khác không thê? tác dô?ng tru?c tiê´p làm thay dô?i tra?ng thái  chi? có thê? tác dô?ng thông qua các method public cu?a dô´i tuo?ng dó.
+
+      • Tính k? th?a (Inheritance):
+                Là k? thu?t cho phép k? th?a l?i nh?ng tính nang mà m?t d?i tu?ng khác dã có, giúp tránh vi?c code l?p du th?a mà ch? x? lý công vi?c tuong t?.
+
+      • Tính da hình (Polymorphism ):
+	Là m?t d?i tu?ng thu?c các l?p khác nhau có th? hi?u cùng m?t thông di?p theo cách khác nhau.
+	Trong code d? th? hi?n tính da hình có 2 cách:
+	1. Method Overloading (compile time polymorphism)
+	2. Method Overriding (run time polymorphism)
+	     • Method Overloading : là cách n?p ch?ng các method có cùng tên nhung khác tham s?
+	     • Method Overriding:  Ðây là m?t phuong pháp du?c ghi dè l?i các method ?o c?a m?t l?p cha nào dó(du?c khai báo b?ng t? khóa virtual).
+	Ð? th? hi?n phuong pháp này c?n dùng 2 t? khóa:
+	     • virtual :t? khoá dùng d? khai báo 1 phuong th?c ?o (có th? ghi dè du?c).
+	     • override: t? khoá dùng d? dánh d?u phuong th?c ghi dè lên phuong th?c c?a l?p cha.
+
+      • Tính tr?u tu?ng(Abstraction):
+	Là ch?n ra các thu?c tính, phuong th?c c?a d?i tu?ng c?n cho vi?c gi?i quy?t bài toán dang l?p trình.
