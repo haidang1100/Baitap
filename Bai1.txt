@@ -1,0 +1,6 @@
+- Module:    Một module là một file. Hay là "One script is one module". 
+            Những module có thể load nhiều function bởi hai keywords đặc biệt đó là Import và Export. Và đặc biệt module này có thể gọi và sử dụng một module khác
+
+- Import:    Cho phép import các functionality từ các module khác.
+
+- Export:    Khai báo những variables hoặc function cho phép những module khác truy cập và sử dụng
